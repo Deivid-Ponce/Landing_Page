@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>Landing Page</title>
+    <meta name="description"
+        content="Obten las ultimas versiones de VS Code para los diferentes Sistemas Operativos en mi Landing Page">
+    <!-- menos de 160 caracteres -->
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Visual,versiones,descarga,suscribir,windows,linux,mac"> <!--Palabras clave y relevantes al contenido-->
+    <meta property="og:title" content="Landing Page - VS Code">
+    <meta property="og:description"
+        content="Obten las ultimas versiones de VS Code para los diferentes Sistemas Operativos en mi Landing Page">
+    <meta property="og:image" content="img/logo-vscode.png">
+    <title>Landing Page - VS Code</title> <!-- Menos de 60 caracteres -->
 </head>
 
 <body>
@@ -17,28 +26,28 @@
     <main class="container">
         <article class="OS">
             <h2>macOS</h2>
-           <img src="img/logo-mac.png" alt="Logo de mac" aria-label="Logo de mac">
+            <img src="img/logo-mac.png" alt="Logo de mac" aria-label="Logo de mac">
             <p>Amplia compatibilidad con lenguajes y frameworks.</p>
-            <a href="https://code.visualstudio.com/docs/?dv=osx"><button role="button">Descargar</button></a>
+            <a href="https://code.visualstudio.com/docs/?dv=osx" rel="noreferer"><button role="button">Descargar</button></a>
         </article>
         <article class="OS">
             <h2>Windows</h2>
             <img src="img/logo-windows.png" alt="Logo de Windows" aria-label="Logo de mac">
             <p>Eficiencia y agilidad en la programación.</p>
-            <a href="https://code.visualstudio.com/docs/?dv=win64user"><button role="button">Descargar</button></a>
+            <a href="https://code.visualstudio.com/docs/?dv=win64user" rel="noreferer"><button role="button">Descargar</button></a>
         </article>
         <article class="OS">
             <h2>Linux</h2>
             <img src="img/logo-linux.png" alt="Logo de linux" aria-label="Logo de linux">
             <p>Personalización y extensibilidad para adaptarse a tus necesidades.</p>
-            <a href="https://code.visualstudio.com/docs/?dv=linux64_deb"><button role="button">Descargar</button></a>
+            <a href="https://code.visualstudio.com/docs/?dv=linux64_deb" rel="noreferer"><button role="button">Descargar</button></a>
         </article>
     </main>
 
     <article class="cta">
         <h2>¿Listo para empezar?</h2>
         <p>Suscríbete ahora y no te pierdas nuestras últimas actualizaciones.</p>
-        <button role="button" aria-label="botonSuscribirse" id="suscrib" onclick="Suscripcion()" >Suscribirse</button>
+        <button role="button" aria-label="botonSuscribirse" id="suscrib" onclick="Suscripcion()">Suscribirse</button>
     </article>
 
     <footer class="footer">
@@ -47,4 +56,5 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="suscrito.js"></script>
 </body>
+
 </html>
